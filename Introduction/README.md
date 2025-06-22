@@ -2,11 +2,10 @@ ASCII
 ASCII es una forma de cifrado estándar de 7-bits que te permite escribir texto en números entre el 0 hasta el 127
 
 En python, 
-*  la función char() 
+*  la función char():
+     ASCII  ---> TEXT
 
-   ASCII  ---> TEXT
-
-*  la función ord()
+*  la función ord():
 
    TEXT ---> ASCII
 
