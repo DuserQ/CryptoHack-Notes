@@ -12,6 +12,7 @@ En python,
 
    TEXT ---> ASCII
 
+
 **Hexadecimal**
 
 Los el cifrado ASCII puede ser representado en Hexadecimal, esto sucede después del proceso de cifrado del texto a ASCII, a partir de aquí cada número decimal se convierte a su equivalen en Hexadecimal.
