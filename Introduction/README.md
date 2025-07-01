@@ -39,11 +39,26 @@ b'crypto{You_will_be_working_with_hex_strings_a_lot}'
 **Base64**
 the base64 format helps us to represent binary data as an ASCII string using a 64 alfabet
 Base64 is most commonly used online, so binary data such as images can be easily included into HTML or CSS files.
+in python, has a module call `base64` that help us to encoding and decoding binary data to and from base64 strings. 
+
+in this exercise we have a hexstrings `72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf` and we need to decode in bytes and then encode to base 64. down below we can see the python code to help us with the solution
 ```python
+#import the module to manage data in base64 format
 import base64
+
+#create a variable that contains our hexstring, in this case i assign x.
 X = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
+
+#After creating it we gonna convert that hexstring to bytes so the way we gonna do this
+is put the name of the format we gonna convert (in this case, bytes) and the we got (in this case hex) add the
+word from as we saw below to take effect
 Y = bytes.fromhex(X)
+
+#this step is optinal if you wanna see that this work
 print(Y)
+
+#so we got the byte form. the only thing we need is the base64 encoding so we gonna used the module that
+we import before 
 print(base64.b64encode(Y))
 ```
 ```bash
