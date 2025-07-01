@@ -37,6 +37,7 @@ print(y)
 b'crypto{You_will_be_working_with_hex_strings_a_lot}'
 ```
 **Base64**
+
 the base64 format helps us to represent binary data as an ASCII string using a 64 alfabet
 Base64 is most commonly used online, so binary data such as images can be easily included into HTML or CSS files.
 in python, has a module call `base64` that help us to encoding and decoding binary data to and from base64 strings. 
