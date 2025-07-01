@@ -12,7 +12,7 @@ En python,
 
    TEXT ---> ASCII
 
-**Hexadecimal**
+### Hexadecimal
 
 Los el cifrado ASCII puede ser representado en Hexadecimal, esto sucede después del proceso de cifrado del texto a ASCII, a partir de aquí cada número decimal se convierte a su equivalen en Hexadecimal.
 sometimes, when we try to share the cyphertext a few bytes cannot be found in the ASCII table so they cant printable. in that cases the use hex numbers to do the job. grabbing the first letter to transform in the ASCII decimal equivalent and then that numbers its convert in his hex. with the help of python and the `.hex()` instance method we can see this in action:
@@ -36,7 +36,7 @@ print(y)
 ❯ python hextringsconverter.py 
 b'crypto{You_will_be_working_with_hex_strings_a_lot}'
 ```
-**Base64**
+### Base64
 
 the base64 format helps us to represent binary data as an ASCII string using a 64 alfabet
 Base64 is most commonly used online, so binary data such as images can be easily included into HTML or CSS files.
