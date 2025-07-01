@@ -68,8 +68,19 @@ print(Y)
 #the module that we import before (base64) and a function called b64encode
 print(base64.b64encode(Y))
 ```
+NOTE: base6encode, recive bytes-like object as input and returns the base64-encoded data also as bytes object.
+
+so we have the results of the python program that we created
 ```bash
 b'r\xbc\xa9\xb6\x8f\xc1j\xc7\xbe\xeb\x8f\x84\x9d\xca\x1d\x8ax>\x8a\xcf\x96y\xbf\x92i\xf7\xbf'
 b'crypto/Base+64+Encoding+is+Web+Safe/'
 ```
+this is the final structure of our python base64 encoding python program}
+```python
+import base64
+X = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
+Y = bytes.fromhex(X)
+print(Y)
+print(base64.b64encode(Y))
+``` 
 
