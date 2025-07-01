@@ -83,5 +83,14 @@ X = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
 Y = bytes.fromhex(X)
 print(Y)
 print(base64.b64encode(Y))
-``` 
+```
+### MESSAGE TO NUMBERS 
+
+```python
+X= 11515195063862318899931685488813747395775516287289682636499965282714637259206269
+print(long_to_bytes(X))
+```
+```bash
+b'crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}'
+```
 
