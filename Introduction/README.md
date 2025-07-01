@@ -93,7 +93,7 @@ base-10 (decimal)
 like we can see in this example
 
 ```shell
- message: HELLO
+message: HELLO
 ascii bytes: [72, 69, 76, 76, 79]
 hex bytes: [0x48, 0x45, 0x4c, 0x4c, 0x4f]
 base-16: 0x48454c4c4f
