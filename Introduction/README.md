@@ -45,20 +45,27 @@ in this exercise we have a hexstrings `72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9
 ```python
 #import the module to manage data in base64 format
 import base64
-
-#create a variable that contains our hexstring, in this case i assign x.
+```
+```python
+#create a variable that contains our hexstring, in this case i assign X.
 X = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
-
+```
+```python
 #After creating it we gonna convert that hexstring to bytes so the way we gonna do this
 #is put the name of the format we gonna convert (in this case, bytes) and the we got (in this case hex) add the
 #word from as we saw below to take effect
-Y = bytes.fromhex(X)
 
+Y = bytes.fromhex(X)
+```
+
+```python
 #this step is optinal if you wanna see that this work
 print(Y)
+```
 
+```python
 #so we got the byte form. the only thing we need is the base64 encoding so we gonna used
-#the module that we import before 
+#the module that we import before (base64) and a function called b64encode
 print(base64.b64encode(Y))
 ```
 ```bash
