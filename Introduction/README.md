@@ -84,8 +84,21 @@ Y = bytes.fromhex(X)
 print(Y)
 print(base64.b64encode(Y))
 ```
-### MESSAGE TO NUMBERS 
+### MESSAGE TO NUMBERS
+In cryptographic systems like RSA works on numbers to make the encryption of the messages. but those are characters so the most common way to convert numbers is take the text, extract their ASCII bytes and convert it to: 
+base-16 (Hexadecimal)
+or
+base-10 (decimal)
 
+like we can see in this example
+
+```shell
+ message: HELLO
+ascii bytes: [72, 69, 76, 76, 79]
+hex bytes: [0x48, 0x45, 0x4c, 0x4c, 0x4f]
+base-16: 0x48454c4c4f
+base-10: 310400273487 
+```
 ```python
 X= 11515195063862318899931685488813747395775516287289682636499965282714637259206269
 print(long_to_bytes(X))
