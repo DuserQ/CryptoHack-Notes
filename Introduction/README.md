@@ -116,12 +116,12 @@ and as the resualt applying this we got the message decripted
 b'crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}'
 ```
 ###  XOR
-|     A         |     B     |    Output     |
-|:--------:     |:-------:  | :------------:|
-|     0         |     0     |       0       |
-|     0         |     1     |       1       |
-|     1         |     0     |       1       |
-|     1         |     1     |       0       |
+|     A     |     B     |    Output     |
+|:--------: |:-------:  | :------------:|
+|     0     |     0     |       0       |
+|     0     |     1     |       1       |
+|     1     |     0     |       1       |
+|     1     |     1     |       0       |
 ```python
 x= "label"
 y= 13
