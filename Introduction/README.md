@@ -115,4 +115,12 @@ and as the resualt applying this we got the message decripted
 ```bash
 b'crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}'
 ```
-
+###  XOR
+```python
+x= "label"
+y= 13
+for pj in x:
+  m=ord(pj)
+  xor=m ^ y
+  print(chr(xor), end="")
+```
