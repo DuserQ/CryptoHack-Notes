@@ -104,11 +104,14 @@ in this excercise we need to get the message back for this integer:
 ```shell
 11515195063862318899931685488813747395775516287289682636499965282714637259206269
 ```
-
+and they request us  to revert the encryption. so to do this first we need to identify the format of the message.
+giving a quick view is a base10 string. after knowing this, only we need is convert it to bytes. to do this we got to
+used the function `long_to_bytes()` as we see here:
 ```python
 X= 11515195063862318899931685488813747395775516287289682636499965282714637259206269
 print(long_to_bytes(X))
 ```
+and as the resualt applying this we got the message decripted
 ```bash
 b'crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}'
 ```
