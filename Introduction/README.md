@@ -116,6 +116,12 @@ and as the resualt applying this we got the message decripted
 b'crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}'
 ```
 ###  XOR
+|     A     |     B     |    Output     |
+| :-------- | :-------: | ------------: |
+|           |           | 23.99         |
+| SQL Hat   |           | 23.99         |
+| Codecadem |  False    | 19.99         |
+| Codecadem |  False    | 42.99         |
 ```python
 x= "label"
 y= 13
