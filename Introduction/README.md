@@ -130,3 +130,7 @@ for pj in x:
   xor=m ^ y
   print(chr(xor), end="")
 ```
+```bash
+aloha
+```
+### XOR PROPERTIES
